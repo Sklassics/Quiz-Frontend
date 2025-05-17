@@ -8,7 +8,7 @@ import Home from "./components/Home";
 import ResultPage from "./components/ResultPage";
 import Dashboard from "./components/Dashboard";
 import Navbar from "./Head & Foot/Navbar";
-import AboutUs from "./components/AboutUS";
+import AboutUs from "./components/AboutUs";
 import Footer from "./Head & Foot/Footer";
 import Cards from "./components/Cards";
 
