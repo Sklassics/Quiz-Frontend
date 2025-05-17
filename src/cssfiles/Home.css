@@ -1,0 +1,47 @@
+/* Home Page Styles */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90.3vh; /* Ensure the container takes full viewport height */
+    background: linear-gradient(to right, #575987, #8f94fb);
+    
+    width:100%;
+  
+  }
+  
+  .home-content {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px; /* To limit the width of content */
+    width: 100%;
+  }
+  
+  .home-title {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 20px; /* Add some space below the title */
+  }
+  
+  .home-description {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 20px; /* Space between description and button */
+  }
+  
+  button {
+    padding: 12px 30px;
+    background-color: #b286e9;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+  }
+  
+  button:hover {
+    background-color: #caa6f5;
+  }
+ 

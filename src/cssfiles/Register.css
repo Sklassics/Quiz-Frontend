@@ -1,0 +1,139 @@
+/* Container Styling */
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.register-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+.register-body{
+  background: linear-gradient(to right, #575987, #8f94fb);
+height: 100vh;
+  width:100vw;
+margin-top: 20x;
+overflow-x: hidden;
+
+
+
+}
+
+.regi-head {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Grid Form Layout */
+.grid-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns grid */
+  gap: 20px; /* Spacing between grid items */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Input and Select Fields */
+.form-group input,
+.form-group select {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Password Field Styling */
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-container input {
+  padding-right: 120px; /* Space for the eye icon */
+}
+
+.password-toggle {
+  position: absolute;
+margin-left: 90%;
+  font-size: 18px;
+  color: #777;
+  cursor: pointer;
+  transition: color 0.3s;
+  margin-right: 100px;
+  
+  
+}
+
+.password-toggle:hover {
+  color: #4caf50;
+}
+
+/* Gender Select Dropdown */
+.form-group select {
+  cursor: pointer;
+}
+
+/* Full Width Buttons */
+.full-width {
+  grid-column: span 2; /* Make button span two columns */
+  display: flex;
+  justify-content: center;
+}
+
+/* Submit Button */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .grid-form {
+    grid-template-columns: 1fr; /* Single column on smaller screens */
+  }
+
+  .full-width {
+    grid-column: span 1;
+  }
+}
+ .login-link{
+  margin-left: 150px;
+ }

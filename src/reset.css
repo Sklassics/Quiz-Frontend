@@ -1,0 +1,31 @@
+/* index.css or reset.css */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; /* Ensure a consistent font family */
+}
+
+html, body {
+  height: 100%; /* Ensure no default margin/padding */
+  font-size: 16px;
+}
+
+ul, ol {
+  list-style: none; /* Remove list styles */
+}
+
+a {
+  text-decoration: none; /* Remove underlines from links */
+}
+
+button, input, textarea {
+  font: inherit; /* Remove browser-specific styles on form elements */
+}
+
+body {
+  background-color: #fff; /* Set a default background color */
+  color: #333; /* Set a default text color */
+}
